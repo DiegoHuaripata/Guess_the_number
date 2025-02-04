@@ -1,5 +1,5 @@
 # Guess the number
-hola soy diegofit ME GUSTA JUGAR FUTBOl
+hola soy diegofit ME GUSTA JUGAR FUTBOL Y TAMBIEN EL BALONMANO
 ## Configuración del Entorno
 
 Sigue estos pasos para configurar tu entorno y comenzar a trabajar en el proyecto **Guess_the_number**.
