@@ -1,44 +1,81 @@
 <!DOCTYPE html>
+<!-- tipo de formato -->
 <html lang="en">
-
+<!-- tipo de lenguaje -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA WEB</title>
     <link rel="stylesheet" href="style.css">
+ <!-- encabezado de la pagina -->
 </head>
 
+
 <body>
-    <header>ESTO ES HEADER</header>
-    <h1>
-        <span class="COLORSPAM"> MI PRIMER HEADING </span>
-    </h1>
-    <h3 class="TITULOSTYLE">DIEGUIÑO</h3>
-    <form>
-        <label>NOMBRE</label>
-        <input />
 
+    <h1 class="TITLESTYLE">ADIVINA EL NUMERO QUE ESTOY PENSANDO...</h1>
+    
+    <h2>PASOS PARA REALIZAR EL JUEGO</h2>
+    <ol>
+        <!-- <li>Completa tu nombre en el recuadro.</li>
+        <br> -->
+        <li>Coloca el numero que probablemente es.</li>
+        <br>
+        <li>Presiona el botón "INTENTAR"</li>
+        <br> 
+    </ol>
+        <br>
+    <!-- <form>
+        <label> NOMBRE DEL PARTICIPANTE: </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Coloca aqui"/>
+        <br> -->
 
+        <h1>ELIGE UN NUMERO DEL 1-10</h1>
+        <span>ingresa el numero</span>
+        <input type="number" id="numero"/>   
+        <button onclick="verificarnumero()">verificar</button>
+        <p id="resultado"></p>
+        <!-- Agregar una funcion que me permita que agregue maxlength -->
+        <br>
+
+        <!-- <label>NUMERO 2</label>
+        <input type="radio"/>
+        <br>
+        <br>
+        
+        <label>NUMERO 3</label>
+        <input type="radio"/>
+        <br>
+        <br>
+        
+        <label>NUMERO 4</label>
+        <input type="radio"/>
+        <br>
+        <br>
+        
+        <label>NUMERO 5</label>
+        <input type="radio"/> -->
     </form>
-    <h3>ESTE ES UN FONDO DE PANTALLA</h3>
+    <br>
+    <br>
+    <soy-una-etiqueta>¿Será ese el número que pienso?....</soy-una-etiqueta>
+
+    <!-- <h3>ESTE ES UN FONDO DE PANTALLA</h3>
 
     <a target="_blank" href="https:www.youtube.com">IR A YOUTUBE
     </a>
 
     <img src="img/pluto.jpg" width="120px" alt="">
 
-    <p>Este es un archivo de prueba</p>
+    <p>Este es un archivo de prueba</p> -->
 
-    <soy-una-etiqueta>aqui va el contenido</soy-una-etiqueta>
-
-    <button onclick="fnSaludar()">CLICK PARA JUGAR</button>
+    
 
     <script src="script.js"></script>
 </body>
 
 <footer>
-    <h1>ARCHIVO DE PRUEBA</h1>
 
 
 </footer>
