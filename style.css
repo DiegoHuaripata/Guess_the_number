@@ -1,9 +1,10 @@
-.TITULOSTYLE{
-    color: aqua;
-    background: pink;
-    padding: 50px;
+
+ .TITLESTYLE{
+    color: antiquewhite;
+    background: red;
+    padding: 30px;
     text-align: center;
-    }
-.COLORSPAM{
-    color:rgba(92, 107, 235, 0.397);
+ }
+ .NOMBRE{
+    text-underline-position: below;
  }
